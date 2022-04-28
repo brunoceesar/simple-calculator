@@ -1,0 +1,96 @@
+body {
+    width: 100vw;
+    background-color: #acacac;
+}
+
+/* HEADER STYLE */
+
+header {
+    /* background-image: linear-gradient(to right, #dfdfdf, white); */
+    background-color: #e7e7e7;
+    height: 60px;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.tituloPrincipal {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.imagemLinkedin {
+    max-width: 25px;
+    margin-left: 10px;
+}
+
+/* MAIN STYLE CALCULATOR */
+
+.calculatorMain {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitleMain {
+    font-family: 'Montserrat';
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#results {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 3px;
+    height: 50px;
+}
+
+.table {
+    background: rgba(0, 0, 0, 0.212);
+    border: solid rgba(0, 0, 0, 0) 20px;
+    border-radius: 3px;
+}
+
+button {
+    border: none;
+    background: rgb(88, 88, 88);
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin: 2px;
+    padding: 0;
+}
+
+button:hover {
+    background: black;
+    transition: .3s;
+}
+
+.verticalLine{
+    vertical-align: top;
+}
+
+#buttonPlus {
+    height: 144px;
+}
+
+#buttonZero {
+    width: 143px;
+}

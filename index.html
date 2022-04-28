@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"> 
+    <title>Simple Calculator - Bruno Beraldo</title>
 </head>
 <body>
+
+    <header>
+        <div class="containerHeader">
+            <div>
+                <h1 class="tituloPrincipal">Bruno Beraldo</h1>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/bruno-beraldo-078451103/"><img class="imagemLinkedin" src="/img/linkedin_black_logo_icon_147114.png" alt="Logotipo LinkeDin"><a>
+                <a href="https://github.com/brunoceesar"><img class="imagemLinkedin" src="/img/25231.png" alt="Logotipo LinkeDin"><a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="subtitleMain">Simple Calculator</h2>
+        <div class="calculatorMain">
+            <div class="tableContainer">
+                <table class="table">
+                    <tr>
+                        <td colspan="5"><p id="results"></p></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button">9</button></td>
+                        <td><button class="button">8</button></td>
+                        <td><button class="button">7</button></td>
+                        <td><button class="clearAll">C</button></td>
+                        <td><button class="erase">ERS</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button">6</button></td>
+                        <td><button class="button">5</button></td>
+                        <td><button class="button">4</button></td>
+                        <td><button class="button">/</button></td>
+                        <td><button class="button">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button">3</button></td>
+                        <td><button class="button">2</button></td>
+                        <td><button class="button">1</button></td>
+                        <td><button class="button">-</button></td>
+                        <td  class="verticalLine" rowspan="2"><button id="buttonPlus" class="button">+</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button id="buttonZero" class="button">0</button></td>
+                        <td><button class="button">.</button></td>
+                        <td><button class="calculate">=</buttonc></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
     
+    <script src="/basecode.js"></script>
+
 </body>
 </html>
