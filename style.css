@@ -48,14 +48,26 @@ header {
     text-align: center;
 }
 
-#results {
+.previousValue {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    justify-content: flex-end;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    padding: 10px;
+    height: 10px;
+}
+
+.currentValue {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 30px;
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
     padding: 10px;
     margin-bottom: 3px;
     height: 50px;
@@ -72,7 +84,7 @@ button {
     background: rgb(88, 88, 88);
     color: white;
     width: 70px;
-    height: 70px;
+    height: 90px;
     font-size: 30px;
     margin: 2px;
     padding: 0;
@@ -88,9 +100,13 @@ button:hover {
 }
 
 #buttonPlus {
-    height: 144px;
+    height: 184px;
 }
 
 #buttonZero {
     width: 143px;
+}
+
+.removeString {
+    color: white;
 }
